@@ -11,5 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const targetSection = document.getElementById(targetId);
         targetSection.scrollIntoView({ behavior: 'smooth' });
     }
+
+    function openLink() {
+    window.open(url, '_blank'); // Opens the URL in a new tab
+}
+
 });
 

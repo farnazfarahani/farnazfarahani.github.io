@@ -12,9 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         targetSection.scrollIntoView({ behavior: 'smooth' });
     }
 
-    function openLink() {
-    window.open(url, '_blank'); // Opens the URL in a new tab
-}
 
 });
 

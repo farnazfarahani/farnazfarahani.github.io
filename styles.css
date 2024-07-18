@@ -37,3 +37,10 @@ footer {
     background-color: #f1f1f1;
 }
 
+css-shadow {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #cddc39;
+  filter: drop-shadow(0 0 8px #ff5722);
+}
